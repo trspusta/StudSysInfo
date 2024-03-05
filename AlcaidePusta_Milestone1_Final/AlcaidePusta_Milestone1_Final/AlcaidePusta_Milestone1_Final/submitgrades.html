@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Grades</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='submitgrades.css'>
+</head>
+<body>
+    <header>
+        <img src="UniversitySealWhite-1024x1020.png" alt="Ateneo de Davao University Logo">
+        <h1>STUDENT INFORMATION SYSTEM</h1>
+        <div class="navigation">
+            <a href="viewgrades.html">View Grades</a>
+            <a href="submitgrades.html">Submit Grades</a>
+            <a href="courselist.html">Course List</a>
+        </div>
+    </header>
+    <div class="input-container">
+     <!--Column 1-->
+     <fieldset>
+        <label>Code/Subject:</label>
+        </fieldset>
+
+        <fieldset>
+        <label>4-114</label>
+        </fieldset>
+
+        <fieldset>
+        <label>Schedule:</label>
+        </fieldset>
+
+        <fieldset>
+        <label>*2:05-4:35P F605 TTh*</label>
+        </fieldset>
+
+        <fieldset>
+        <label>Academic Period:</label>
+        </fieldset>
+
+        <fieldset>
+        <label>2nd Semester 2023-2024</label>
+        </fieldset>
+
+        <fieldset>
+        <label>Grading Period:</label>
+        </fieldset>
+    
+        <fieldset>
+        <label>Final</label>
+        </fieldset>
+    </div>
+
+    <br>
+    <h1>Grade Encoding Guidelines</h1>
+    <ol>
+        <li>Grades in the New Grading System must be encoded as A, B+, B, C+, C, D, F, FD, WP</li>
+        <li>Non FYDP Grades in the OLD Grading System must be from 65 to 100</li>
+        <li>FYDP Grades in the NEW Grading System must be encoded as A, B+, B, C+, C, D, F, FD, WP</li>
+        <li>FYDP Grades in the OLD Grading System must be encoded as 0- Outsanding, HS - Highly Satisfactory, S - Satisfactory, MS - Moderately Satisfactory, F- Fair, P - Poor</li>
+        <li>NE Grades will not be accepted, Students who have not taken exams must be provided the minimum grade. After the exam has been taken, the teacher should file a grade correction form at the Registrar's Office</li>
+        <li>Select AUD for Audit students.</li>
+    </ol>
+    <br>
+    <table id="student-table" border="1" bordercolor="white" bgcolor="#708090" align="center">
+        <thead>
+            <tr>
+                <td>Code</td>
+                <td>Student Name</td>
+                <td>Prelim</td>
+                <td>Midterm</td>
+                <td>Final</td>
+                <td>Grd. Type</td>
+                <td>Year Level</td>
+                <td>Acad. Status</td>
+                <td>Year of Entry</td>
+                <td>Entry Yr. Lvl</td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="./submitgrades.js"></script>
+</body>
+</html>
